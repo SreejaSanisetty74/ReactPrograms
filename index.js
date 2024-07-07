@@ -8,7 +8,7 @@ import SignUp from './Conditional';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <SignUp isLoggedIn={true}/>
+   <App/>
   </React.StrictMode>
 );
 
